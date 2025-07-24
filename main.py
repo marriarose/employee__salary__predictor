@@ -36,9 +36,6 @@ def home():
     """Renders the main landing page."""
     return render_template('index.html')
 
-@app.route("/about-tech")
-def about_tech():
-    return render_template("about_tech.html")
 
 @app.route('/predict_form')
 def predict_form():
